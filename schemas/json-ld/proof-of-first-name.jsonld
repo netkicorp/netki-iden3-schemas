@@ -1,0 +1,25 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "ProofOfFirstName": {
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-first-name.jsonld",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-first-name.md",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "firstName": {
+                        "@id": "vocab:firstName",
+                        "@type": "xsd:string"
+                    }
+                }
+            }
+        }
+    ]
+}
