@@ -16,7 +16,7 @@
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "birthDate": {
                         "@id": "vocab:birthDate",
-                        "@type": "xsd:integer"
+                        "@type": "xsd:string"
                     }
                 }
             }

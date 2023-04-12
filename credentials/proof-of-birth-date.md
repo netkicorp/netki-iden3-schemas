@@ -1,7 +1,7 @@
 # birthDate
 
-birthDate represents a person's date of birth as integer value YYYYMMDD
+birthDate represents a person's date of birth as string value YYYY-MM-DD
 
 ```
-  "birthDate": 19991020
+  "birthDate": "1999-10-20"
 ```
