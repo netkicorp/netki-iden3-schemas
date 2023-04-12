@@ -1,1 +1,25 @@
-placeholder
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "ProofOfBirthDate": {
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-birth-date.jsonld",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-birth-date.md#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "birthDate": {
+                        "@id": "vocab:birthDate",
+                        "@type": "xsd:integer"
+                    }
+                }
+            }
+        }
+    ]
+}
