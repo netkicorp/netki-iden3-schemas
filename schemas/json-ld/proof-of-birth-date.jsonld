@@ -12,7 +12,7 @@
                     "@protected": true,
                     "id": "@id",
                     "type": "@type",
-                    "vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-birth-date.md#",
+                    "vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-birth-date.md",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "birthDate": {
                         "@id": "vocab:birthDate",
