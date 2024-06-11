@@ -1,8 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-full-name.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld"
         },
         "version": "1.0",
         "type": "ProofofFullName"
