@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-name.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-name.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-full-name.json"
         }
     },
     "required": [
@@ -106,7 +106,7 @@
             "type": "object",
             "required": [
                 "id",
-                "name"
+                "fullName"
             ],
             "properties": {
                 "id": {
@@ -114,7 +114,7 @@
                     "type": "string",
                     "format": "uri"
                 },
-                "name": {
+                "fullName": {
                     "type": "string"
                 }
             }
