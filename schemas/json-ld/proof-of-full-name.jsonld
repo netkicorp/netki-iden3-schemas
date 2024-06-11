@@ -1,24 +1,22 @@
 {
     "@context": [
         {
-            "@version": 1.1,
             "@protected": true,
+            "@version": 1.1,
             "id": "@id",
             "type": "@type",
-            "ProofOfFullName": {
-                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld",
+            "ProofofFullName": {
                 "@context": {
-                    "@version": 1.1,
+                    "@propagate": true,
                     "@protected": true,
-                    "id": "@id",
-                    "type": "@type",
-                    "vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-full-name.md",
+                    "polygon-vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-full-name.md",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "fullName": {
-                        "@id": "vocab:fullName",
+                        "@id": "polygon-vocab:fullName",
                         "@type": "xsd:string"
                     }
-                }
+                },
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld"
             }
         }
     ]
