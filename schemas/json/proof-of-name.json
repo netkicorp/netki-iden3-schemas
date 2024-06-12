@@ -1,15 +1,15 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-full-name.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-name.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-name.json"
         },
         "version": "1.0",
-        "type": "ProofOfFullName"
+        "type": "ProofOfName"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "Stores the full name of an entity",
-    "title": "ProofOfFullName",
+    "title": "ProofOfName",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",

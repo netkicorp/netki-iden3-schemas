@@ -5,18 +5,18 @@
             "@version": 1.1,
             "id": "@id",
             "type": "@type",
-            "ProofOfFullName": {
+            "ProofOfName": {
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-full-name.md",
+                    "polygon-vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-name.md",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "fullName": {
                         "@id": "polygon-vocab:fullName",
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld"
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-name.jsonld"
             }
         }
     ]
