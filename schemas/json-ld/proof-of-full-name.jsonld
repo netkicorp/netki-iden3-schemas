@@ -9,14 +9,14 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:8ba0fe98-e654-4517-b18f-78b7a0d4569e#",
+                    "polygon-vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-full-name.md",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "fullName": {
                         "@id": "polygon-vocab:fullName",
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:753d3fee-5212-4b25-aaa1-d1780d8cb552"
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-full-name.jsonld"
             }
         }
     ]
