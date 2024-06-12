@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "ProofOfPersonType": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "https://github.com/netkicorp/netki-iden3-schemas/blob/main/credentials/proof-of-person-type.md",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "personType": {
+                        "@id": "polygon-vocab:personType",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json-ld/proof-of-person-type.jsonld"
+            }
+        }
+    ]
+}
