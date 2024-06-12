@@ -5,11 +5,11 @@
             "jsonSchema": "https://raw.githubusercontent.com/netkicorp/netki-iden3-schemas/main/schemas/json/proof-of-full-name.json"
         },
         "version": "1.0",
-        "type": "ProofofFullName"
+        "type": "ProofOfFullName"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "Stores the full name of an entity",
-    "title": "ProofofFullName",
+    "title": "ProofOfFullName",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",
