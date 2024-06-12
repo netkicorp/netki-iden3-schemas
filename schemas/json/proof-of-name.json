@@ -15,7 +15,7 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "fullName": {
+                "name": {
                     "description": "This is the full name of the entity in question",
                     "title": "Full name of entity",
                     "type": "string"
@@ -28,7 +28,7 @@
                 }
             },
             "required": [
-                "fullName"
+                "name"
             ],
             "type": "object"
         },
